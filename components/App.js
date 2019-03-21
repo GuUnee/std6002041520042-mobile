@@ -1,13 +1,13 @@
 import React from 'react';
-import { View } from 'react-native';
-
+import { View, Text } from 'react-native';
+	
 class App extends React.Component {
-  render() {
-    return (
-      <View>
-          <Text>Hello Assassin's Creed</Text>
-      </View>
-    );
-  }
+	render() {
+	return (
+	    <View>
+	        <Text>Hello Word นายธนพงษ์ นงนุช</Text>
+	    </View>
+	);
+	}
 }
 export default App;
