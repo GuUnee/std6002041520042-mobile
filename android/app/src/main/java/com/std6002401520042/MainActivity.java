@@ -1,4 +1,4 @@
-package com.std6002041520042;
+package com.std6002401520042;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "std6002041520042";
+        return "std6002401520042";
     }
 }
