@@ -8,7 +8,7 @@ class App extends React.Component{
         return(
             <View>
                 <Header title = {'Albums'}></Header>
-                <Text>Thanapong Nongnuch</Text>
+                <Text style={{fontSize: 15}}>Thanapong Nongnuch</Text>
                 <Card/>
             </View>
         );

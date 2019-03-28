@@ -15,9 +15,10 @@ const style = {
     header: {
         padding: 20,
         alignItems: 'center',
-        backgroundColor: 'blue'
+        backgroundColor: 'green'
     },
     text: {
+        alignItems: 'center',
         fontSize:25,
         color: 'white',
     },
