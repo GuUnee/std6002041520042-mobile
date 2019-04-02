@@ -6,9 +6,11 @@ import Card from './Card';
 class App extends React.Component{
     render(){
         return(
-            <View>
+            <View style={{ flex: 1, flexDirection: 'column', justifyContent: 'space-between' }}>
                 <Header title = {'Albums'}></Header>
-                <Text style={{fontSize: 15}}>Thanapong Nongnuch</Text>
+                <View style={{ alignItems: 'center', paddingTop: 10 }}>
+                    <Text style={{ fontSize: 20, color: 'green',fontWeight: 'bold' }}>Thanapong Nongnuch</Text>
+                </View>
                 <Card/>
             </View>
         );

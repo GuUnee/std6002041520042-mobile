@@ -1,4 +1,4 @@
-package com.std6002401520042;
+package com.test;
 
 import android.app.Application;
 

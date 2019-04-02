@@ -5,35 +5,33 @@ import CardSection from './CardSection';
 class Card extends React.Component{
     render(){
         return(
-            <View style={{flex: 1,flexDirection: 'column'}}>
-                <View>
-                    <CardSection>
-                        <Image 
-                            style={{height: 400,width: 400}}
-                            source={{uri: 'http://www.baharfamily.com/wp-content/uploads/2014/07/3D-Animated-Frog-Image.jpg'}}
-                        />
-                    </CardSection>
-                </View>
-                <View>
-                    <CardSection>
-                        <Image 
-                            style={{height: 400,width: 400}}
-                            source={{uri: 'http://bdfjade.com/data/out/38/5463560-birds-picture.jpg'}}
-                        />
-                    </CardSection>
-                </View>
-                <View>
-                    <CardSection>
-                        <View>
-                        <View>
-                            <Button title="Click Me" color="green">
-                            </Button>
-                        </View>
-                        </View>
-                    </CardSection>
-                </View>
+            <View>
+                <CardSection>
+                    <View style={{ alignItems: 'center',padding: 10 }}>
+                        <Image style={style.img} source={require('../img/01.jpg')}/>
+                    </View>
+                </CardSection>
+
+                <CardSection>
+                    <View style={{ alignItems: 'center',padding: 10,paddingBottom: 20 }}>
+                        <Image style={style.img} source={require('../img/02.jpg')}/>
+                    </View>
+                </CardSection>
+
+                <CardSection>
+                        <Button title="Click Me" color="green" />
+                </CardSection>
             </View>
         );
     }
 }
+const style = {
+    img: {
+        height: 200,
+        width: 400,
+        borderRadius: 20,
+        borderWidth: 5,
+        borderColor: 'green'
+    },
+};
 export default Card;

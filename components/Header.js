@@ -15,11 +15,16 @@ const style = {
     header: {
         padding: 20,
         alignItems: 'center',
-        backgroundColor: 'green'
+        backgroundColor: 'green',
+        shadowColor: 'black',
+        shadowOffset: {width: 0,height: 2},
+        shadowOpacity: 0.1,
+        shadowRadius: 2,
     },
     text: {
         alignItems: 'center',
         fontSize:25,
+        fontWeight: 'bold',
         color: 'white',
     },
 };
